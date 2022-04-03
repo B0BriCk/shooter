@@ -11,7 +11,7 @@ fire_sound = mixer.Sound('fire.ogg')
 font.init()
 font1 = font.Font(None, 80)
 win = font1.render('YOU WIN! GOOD WORK', True, (255, 255, 255))
-lose = font1.render('YOU LOSE BAD !', True, (180, 0, 0))
+lose = font1.render('YOU LOSE BAD WORK!', True, (180, 0, 0))
 font2 = font.Font(None, 36)
  
 #нам нужны такие картинки:
