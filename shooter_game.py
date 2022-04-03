@@ -80,8 +80,8 @@ class Bullet(GameSprite):
             self.kill()
  
 #создаем окошко
-win_width = 700
-win_height = 500
+win_width = 1250
+win_height = 720
 display.set_caption("Shooter")
 window = display.set_mode((win_width, win_height))
 background = transform.scale(image.load(img_back), (win_width, win_height))
